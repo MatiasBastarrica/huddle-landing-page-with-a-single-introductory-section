@@ -31,10 +31,26 @@ img {
 a[class] {
   display: inline-block;
   text-decoration: none;
+  color: inherit;
 }
 
 /* ### UTILITY CLASSES ### */
 
 .stack > * + * {
   margin-top: var(--stack-gap, 1rem);
+}
+
+/* ### GENERAL STYLING ### */
+
+body {
+  font-family: var(--ff-open-sans);
+  background-image: url(./images/bg-mobile.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: var(--primary-violet);
+  color: white;
+}
+
+h1 {
+  font-family: var(--ff-poppins);
 }
