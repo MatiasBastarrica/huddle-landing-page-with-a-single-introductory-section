@@ -29,5 +29,12 @@ img {
 }
 
 a[class] {
+  display: inline-block;
   text-decoration: none;
+}
+
+/* ### UTILITY CLASSES ### */
+
+.stack > * + * {
+  margin-top: var(--stack-gap, 1rem);
 }
