@@ -1,0 +1,16 @@
+/* ### CUSTOM PROPERTIES ### */
+
+:root {
+  /* primary */
+  --primary-violet: hsl(257, 40%, 49%);
+  --primary-soft-magenta: hsl(300, 69%, 71%);
+
+  /* typography */
+  /* headings */
+  --ff-poppins: "Poppins", sans-serif;
+  /* body */
+  --ff-open-sans: "Open Sans", sans-serif;
+
+  --fw-400: 400;
+  --fw-600: 600;
+}
