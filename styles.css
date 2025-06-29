@@ -36,8 +36,11 @@ a[class] {
 
 /* ### UTILITY CLASSES ### */
 
-.stack > * + * {
-  margin-top: var(--stack-gap, 1rem);
+.stack {
+  display: flex;
+  flex-direction: column;
+  gap: var(--stack-gap, 1rem);
+  align-items: center;
 }
 
 /* ### GENERAL STYLING ### */
@@ -46,11 +49,43 @@ body {
   font-family: var(--ff-open-sans);
   background-image: url(./images/bg-mobile.svg);
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
   background-color: var(--primary-violet);
   color: white;
+  padding: 2.5rem;
+  font-weight: var(--fw-400);
+}
+
+main {
+  margin-block: 3.6rem;
+}
+
+.logo {
+  width: 150px;
+}
+
+.text-section {
+  --stack-gap: 1.5rem;
+  margin-block-start: 3.6rem;
+  text-align: center;
 }
 
 h1 {
   font-family: var(--ff-poppins);
+  font-weight: var(--fw-600);
+  font-size: 1.5rem;
+}
+
+.text-section p {
+  line-height: 1.5;
+  font-size: 0.965rem;
+}
+
+a.btn {
+  background-color: white;
+  color: var(--primary-violet);
+  padding: 0.8em 1.5em;
+  border-radius: 200px;
+  width: 85%;
+  font-size: 0.875rem;
 }
