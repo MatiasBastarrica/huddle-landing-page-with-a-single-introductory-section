@@ -89,3 +89,9 @@ a.btn {
   width: 85%;
   font-size: 0.875rem;
 }
+
+a.btn:hover {
+  background-color: var(--primary-soft-magenta);
+  color: white;
+  box-shadow: 10px 10px 20px rgb(85, 61, 144);
+}
