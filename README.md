@@ -30,7 +30,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [My Solution](https://your-solution-url.com)
+- Solution URL: [My Solution](https://www.frontendmentor.io/solutions/huddle-landing-page-with-a-single-itroductory-section-mb-9wonQ9p2kS)
 - Live Site URL: [Live](https://matiasbastarrica.github.io/huddle-landing-page-with-a-single-introductory-section/)
 
 ## My process
