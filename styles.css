@@ -14,3 +14,20 @@
   --fw-400: 400;
   --fw-600: 600;
 }
+
+/* ### CSS RESET ### */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+a[class] {
+  text-decoration: none;
+}
