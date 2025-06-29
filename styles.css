@@ -153,6 +153,9 @@ footer .icon-container:hover {
   }
 
   main {
+    width: 100%;
+    max-width: 1315px;
+    margin-inline: auto;
     flex-grow: 1;
     margin-block-start: 5.8rem;
   }
